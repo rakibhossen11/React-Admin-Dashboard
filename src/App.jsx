@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './component/sidebar/Sidebar'
 import MainDash from './component/MainDash/MainDash'
+import RightSide from './component/RightSide/RightSide'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <div className="AppGlass">
         <Sidebar/>
         <MainDash/>
-        {/* <RightSide/> */}
+        <RightSide/>
       </div>
     </div>
   )
